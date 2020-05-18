@@ -490,7 +490,7 @@
           </targetInfo>
         </targetInfos>
       </component>
-      <component Cbundle="NUCLEO-L552ZE-Q" Cclass="Board Support" Cgroup="Drivers" Csub="Basic I/O" Cvendor="Keil" Cversion="1.0.0" condition="NUCLEO-L552ZE-Q BSP">
+      <component Cbundle="NUCLEO-L552ZE-Q" Cclass="Board Support" Cgroup="Drivers" Csub="Basic I/O" Cvendor="Keil" Cversion="1.0.1" condition="NUCLEO-L552ZE-Q BSP">
         <package name="NUCLEO-L552ZE-Q_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/NUCLEO-L552ZE-Q_BSP/" vendor="Keil" version="1.0.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
@@ -508,55 +508,55 @@
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="Cortex" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 HAL">
+      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="Cortex" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 HAL">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="DMA" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 HAL">
+      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="DMA" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 HAL">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="EXTI" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 HAL">
+      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="EXTI" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 HAL">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="Flash" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 HAL">
+      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="Flash" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 HAL">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="GPIO" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 HAL">
+      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="GPIO" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 HAL">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="PWR" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 HAL">
+      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="PWR" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 HAL">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="RCC" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 HAL GPIO Flash">
+      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="RCC" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 HAL GPIO Flash">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="UART" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 HAL DMA">
+      <component Cclass="Device" Cgroup="STM32Cube HAL" Csub="UART" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 HAL DMA">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </component>
-      <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 CMSIS">
+      <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 CMSIS">
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
@@ -566,7 +566,7 @@
     <files>
       <file attr="config" category="header" name="Drivers\Config\stm32l5xx_nucleo_conf.h" version="1.0.0">
         <instance index="0">RTE\Board_Support\STM32L552ZETxQ\stm32l5xx_nucleo_conf.h</instance>
-        <component Cbundle="NUCLEO-L552ZE-Q" Cclass="Board Support" Cgroup="Drivers" Csub="Basic I/O" Cvendor="Keil" Cversion="1.0.0" condition="NUCLEO-L552ZE-Q BSP"/>
+        <component Cbundle="NUCLEO-L552ZE-Q" Cclass="Board Support" Cgroup="Drivers" Csub="Basic I/O" Cvendor="Keil" Cversion="1.0.1" condition="NUCLEO-L552ZE-Q BSP"/>
         <package name="NUCLEO-L552ZE-Q_BSP" schemaVersion="1.6.0" url="https://github.com/MDK-Packs/Pack/raw/master/NUCLEO-L552ZE-Q_BSP/" vendor="Keil" version="1.0.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
@@ -602,17 +602,17 @@
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </file>
-      <file attr="config" category="source" condition="STM32L552 ARMCC" name="Drivers\CMSIS\Device\ST\STM32L5xx\Source\Templates\arm\startup_stm32l552xx.s" version="1.0.0">
+      <file attr="config" category="source" condition="STM32L552 ARMCC" name="Drivers\CMSIS\Device\ST\STM32L5xx\Source\Templates\arm\startup_stm32l552xx.s" version="1.0.2">
         <instance index="0">RTE\Device\STM32L552ZETxQ\startup_stm32l552xx.s</instance>
-        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 CMSIS"/>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 CMSIS"/>
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </file>
-      <file attr="config" category="linkerScript" condition="STM32L552xE noTZ ARMCC" name="Drivers\CMSIS\Device\ST\STM32L5xx\Source\Templates\arm\linker\stm32l552xe_flash.sct" version="1.0.0">
+      <file attr="config" category="linkerScript" condition="STM32L552xE noTZ ARMCC" name="Drivers\CMSIS\Device\ST\STM32L5xx\Source\Templates\arm\linker\stm32l552xe_flash.sct" version="1.0.2">
         <instance index="0">RTE\Device\STM32L552ZETxQ\stm32l552xe_flash.sct</instance>
-        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 CMSIS"/>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 CMSIS"/>
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
@@ -632,9 +632,9 @@
           <targetInfo name="NUCLEO-L552ZE-Q"/>
         </targetInfos>
       </file>
-      <file attr="config" category="source" condition="noTZ" name="Drivers\CMSIS\Device\ST\STM32L5xx\Source\Templates\system_stm32l5xx.c" version="1.0.0">
+      <file attr="config" category="source" condition="noTZ" name="Drivers\CMSIS\Device\ST\STM32L5xx\Source\Templates\system_stm32l5xx.c" version="1.0.2">
         <instance index="0">RTE\Device\STM32L552ZETxQ\system_stm32l5xx.c</instance>
-        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.0" condition="STM32L5 CMSIS"/>
+        <component Cclass="Device" Cgroup="Startup" Cvendor="Keil" Cversion="1.0.2" condition="STM32L5 CMSIS"/>
         <package name="STM32L5xx_DFP" schemaVersion="1.6.0" url="http://www.keil.com/pack/" vendor="Keil" version="1.2.0"/>
         <targetInfos>
           <targetInfo name="NUCLEO-L552ZE-Q"/>
