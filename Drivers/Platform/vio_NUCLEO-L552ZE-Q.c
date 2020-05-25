@@ -22,6 +22,18 @@
  * limitations under the License.
  */
 
+/*! \page vio_NUCELO_L552ZE_Q Physical I/O Mapping
+
+The table below lists the physical I/O mapping of this CMSIS-Driver VIO implementation.
+
+Virtual Resource  | Variable       | Physical Resource on NUCLEO-L552ZE-Q           |
+:-----------------|:---------------|:-----------------------------------------------|
+vioBUTTON0        | vioSignalIn.0  | GPIO C.13: Button USER                         |
+vioLED0           | vioSignalOut.0 | GPIO A.9:  LD3 RED                             |
+vioLED1           | vioSignalOut.1 | GPIO C.7:  LD1 GREEN                           |
+vioLED2           | vioSignalOut.2 | GPIO B.7:  LD2 BLUE                            |
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
