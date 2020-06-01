@@ -5,7 +5,7 @@
  * @date     24. March 2020
  ******************************************************************************/
 /*
- * Copyright (c) 2019-2020 Arm Limited. All rights reserved.
+ * Copyright (c) 2020 Arm Limited (or its affiliates). All rights reserved.
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -39,11 +39,10 @@ vioLED2           | vioSignalOut.2 | GPIO B.7:  LD2 BLUE                        
 #include <stdarg.h>
 #include "cmsis_vio.h"
 
-#include "RTE_Components.h"             // Component selection
+#include "RTE_Components.h"
 #include CMSIS_device_header
 
 #if !defined CMSIS_VOUT || !defined CMSIS_VIN
-// Add user includes here:
 #include "stm32l5xx_nucleo.h"
 #endif
 
@@ -88,21 +87,21 @@ void vioInit (void) {
   vioSignalIn  = 0U;
   vioSignalOut = 0U;
 
-  memset (vioPrintMem, 0, sizeof(vioPrintMem));
-  memset (vioValue,    0, sizeof(vioValue));
-  memset (vioValueXYZ, 0, sizeof(vioValueXYZ));
-  memset (vioAddrIPv4, 0, sizeof(vioAddrIPv4));
-  memset (vioAddrIPv6, 0, sizeof(vioAddrIPv6));
+  memset(vioPrintMem, 0, sizeof(vioPrintMem));
+  memset(vioValue,    0, sizeof(vioValue));
+  memset(vioValueXYZ, 0, sizeof(vioValueXYZ));
+  memset(vioAddrIPv4, 0, sizeof(vioAddrIPv4));
+  memset(vioAddrIPv6, 0, sizeof(vioAddrIPv6));
 
 #if !defined CMSIS_VOUT
-// Add user code here:
+  // Initialize LEDs pins
   BSP_LED_Init(LED_BLUE);
   BSP_LED_Init(LED_RED);
   BSP_LED_Init(LED_GREEN);
 #endif
 
 #if !defined CMSIS_VIN
-// Add user code here:
+  // Initialize buttons pins (only USER button)
   BSP_PB_Init(BUTTON_USER, BUTTON_MODE_GPIO);
 #endif
 }
@@ -149,7 +148,7 @@ void vioSetSignal (uint32_t mask, uint32_t signal) {
   vioSignalOut |=  mask & signal;
 
 #if !defined CMSIS_VOUT
-// Add user code here:
+  // Output signals to LEDs
   if (mask & vioLED0) {
     if (signal & vioLED0) {
       BSP_LED_On(LED_RED);
@@ -185,9 +184,9 @@ uint32_t vioGetSignal (uint32_t mask) {
 #endif
 
 #if !defined CMSIS_VIN
-// Add user code here:
+  // Get input signals from buttons (only USER button)
   if (mask & vioBUTTON0) {
-    if (BSP_PB_GetState(BUTTON_USER) == 1) {
+    if (BSP_PB_GetState(BUTTON_USER) == 1U) {
       vioSignalIn |=  vioBUTTON0;
     } else {
       vioSignalIn &= ~vioBUTTON0;
