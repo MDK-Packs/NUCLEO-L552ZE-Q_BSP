@@ -381,22 +381,12 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source</GroupName>
+          <GroupName>App</GroupName>
           <Files>
             <File>
               <FileName>Blinky.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Blinky.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
-          <GroupName>Documentation</GroupName>
-          <Files>
-            <File>
-              <FileName>Abstract.txt</FileName>
-              <FileType>5</FileType>
-              <FilePath>.\Abstract.txt</FilePath>
             </File>
           </Files>
         </Group>
@@ -417,6 +407,26 @@
               <FileName>stm32l5xx_it.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\RTE\Device\STM32L552ZETxQ\STCubeGenerated\Src\stm32l5xx_it.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>STM32CubeMX</GroupName>
+          <Files>
+            <File>
+              <FileName>STCubeGenerated.ioc</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\RTE\Device\STM32L552ZETxQ\STCubeGenerated\STCubeGenerated.ioc</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Documentation</GroupName>
+          <Files>
+            <File>
+              <FileName>Abstract.txt</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Abstract.txt</FilePath>
             </File>
           </Files>
         </Group>
