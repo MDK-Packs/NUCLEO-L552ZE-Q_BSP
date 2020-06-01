@@ -2,11 +2,20 @@
 <package xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd" schemaVersion="1.6.0">
   <name>NUCLEO-L552ZE-Q_BSP</name>
   <vendor>Keil</vendor>
-  <description>STMicroelectronics STM32L5 Series NUCLEO-L552ZE-Q Board Support</description>
+  <description>STMicroelectronics STM32L5 Series NUCLEO-L552ZE-Q Board Support Pack</description>
   <url>https://github.com/MDK-Packs/Pack/raw/master/NUCLEO-L552ZE-Q_BSP/</url>
   <repository type="git">https://github.com/MDK-Packs/NUCLEO-L552ZE-Q_BSP.git</repository>
 
   <releases>
+    <release version="1.0.1-dev1">
+      Drivers:
+      - Update VIO module (white-space consistency)
+      Projects:
+      - Update examples:
+      -- Default RTX_Config.h file
+      -- Rename GroupNames
+      -- White-space consistency
+    </release>
     <release version="1.0.1-dev0">
       Drivers:
       - Update VIO module (add physical I/O mapping)
@@ -19,6 +28,14 @@
       Initial public release.
     </release>
   </releases>
+
+  <keywords>
+    <!-- keywords for indexing -->
+    <keyword>ST</keyword>
+    <keyword>Board Support Pack</keyword>
+    <keyword>STM32L5</keyword>
+    <keyword>NUCLEO-L552ZE-Q</keyword>
+  </keywords>
 
   <requirements>
     <packages>
@@ -144,5 +161,4 @@
       </attributes>
     </example>
   </examples>
-
 </package>
