@@ -7,6 +7,13 @@
   <repository type="git">https://github.com/MDK-Packs/NUCLEO-L552ZE-Q_BSP.git</repository>
 
   <releases>
+    <release version="1.0.1-dev3">
+      Drivers:
+      - Update VIO module
+      Projects:
+      - Update examples:
+      -- Move includes (cmsis_os2.h, RTE_Components.h)
+    </release>
     <release version="1.0.1-dev2">
       Projects:
       - Update examples:
@@ -82,7 +89,7 @@
       <component Cgroup="Drivers" Csub="Basic I/O" condition="NUCLEO-L552ZE-Q BSP">
         <description>LEDs, push-buttons and COM ports for NUCLEO-L552ZE Board</description>
         <files>
-          <file category="header" name="Drivers/Config/stm32l5xx_nucleo_conf.h"        attr="config" version="1.0.0"/>
+          <file category="header" name="Drivers/Config/stm32l5xx_nucleo_conf.h" attr="config" version="1.0.0"/>
           <file category="header" name="Drivers/STM32L5xx_Nucleo/stm32l5xx_nucleo.h"/>
           <file category="source" name="Drivers/STM32L5xx_Nucleo/stm32l5xx_nucleo.c"/>
         </files>
