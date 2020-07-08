@@ -7,6 +7,9 @@
   <repository type="git">https://github.com/MDK-Packs/NUCLEO-L552ZE-Q_BSP.git</repository>
 
   <releases>
+    <release version="1.0.1-dev7">
+      Update to sync with CB_Lab4Layer.
+    </release>
     <release version="1.0.1-dev6">
       Update Platform example Abstract.
     </release>
@@ -132,12 +135,12 @@
            orderForm   ="https://www.st.com/en/evaluation-tools/nucleo-l552ze-q.html">
       <description>STM32 Nucleo development board with NUCLEO-L552ZE MCU</description>
       <image small="Images/NUCLEO_small.jpg"
-             large="Images/NUCLEO_large.jpg"/>
-      <book category="overview"  name="https://www.st.com/en/evaluation-tools/nucleo-l552ze-q.html" title="STM32 Nucleo board"/>
-      <book category="overview"  name="Documents/nucleo-l552ze-q.pdf" title="Data brief"/>
-      <book category="setup"     name="Documents/DM00105928.pdf" title="Getting started"/>
-      <book category="manual"    name="Documents/DM00615305.pdf" title="User Manual"/>
-      <book category="schematic" name="Documents/MB1361.pdf"     title="Schematics"/>
+             large="Images/NUCLEO_large.jpg" public="true"/>
+      <book category="overview"  name="https://www.st.com/en/evaluation-tools/nucleo-l552ze-q.html" title="STM32 Nucleo board" public="true"/>
+      <book category="overview"  name="Documents/nucleo-l552ze-q.pdf" title="Data brief" public="true"/>
+      <book category="setup"     name="Documents/DM00105928.pdf" title="Getting started" public="true"/>
+      <book category="manual"    name="Documents/DM00615305.pdf" title="User Manual" public="true"/>
+      <book category="schematic" name="Documents/MB1361.pdf"     title="Schematics" public="true"/>
       <mountedDevice    deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32L552ZETxQ"/> 
       <compatibleDevice deviceIndex="0" Dvendor="STMicroelectronics:13" DsubFamily="STM32L5x2"/>
         <feature type="ODbg"      n="1"              name="On-board ST-LINK/V2-1"/>

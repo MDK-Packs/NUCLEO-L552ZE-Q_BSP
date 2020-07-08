@@ -54,14 +54,16 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+extern void app_initialize (void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define SPI1_NSS_Pin GPIO_PIN_14
-#define SPI1_NSS_GPIO_Port GPIOD
+#define IO_D10_Pin GPIO_PIN_14
+#define IO_D10_GPIO_Port GPIOD
+#define IO_D9_Pin GPIO_PIN_15
+#define IO_D9_GPIO_Port GPIOD
 /* USER CODE BEGIN Private defines */
-extern void app_main (void *arg);
+
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
