@@ -129,8 +129,6 @@ int main(void)
   MX_DMA_Init();
   MX_ICACHE_Init();
   MX_LPUART1_UART_Init();
-  MX_USART3_UART_Init();
-  MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
 #ifdef RTE_VIO_BOARD
   vioInit();
