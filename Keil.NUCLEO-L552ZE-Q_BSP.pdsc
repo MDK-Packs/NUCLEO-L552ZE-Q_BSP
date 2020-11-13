@@ -118,13 +118,14 @@
       <book category="schematic" name="Documents/MB1361.pdf"     title="Schematics" public="true"/>
       <mountedDevice    deviceIndex="0" Dvendor="STMicroelectronics:13" Dname="STM32L552ZETxQ"/> 
       <compatibleDevice deviceIndex="0" Dvendor="STMicroelectronics:13" DsubFamily="STM32L5x2"/>
-        <feature type="ODbg"      n="1"              name="On-board ST-LINK/V2-1"/>
-        <feature type="PWR"       n="4"              name="USB VBUS, ext. VIN, ext. 5V, ext +3.3V"/>
-        <feature type="CustomFF"  n="2"              name="STMicroelectronics Morpho connector"/>
-        <feature type="ArduinoFF" n="2"              name="STMicroelectronics Arduino connector"/>
-        <feature type="USB"       n="1"              name="USB re-enumeration capability"/>
-        <feature type="Button"    n="2"              name="Push-buttons: User and Reset"/>
-        <feature type="LED"       n="5"              name="LEDs: COM, Power, User LEDs"/>
+      <feature type="ODbg"      n="1"              name="On-board ST-LINK/V2-1"/>
+      <feature type="PWR"       n="4"              name="USB VBUS, ext. VIN, ext. 5V, ext +3.3V"/>
+      <feature type="CustomFF"  n="2"              name="STMicroelectronics Morpho connector"/>
+      <feature type="ArduinoFF" n="2"              name="STMicroelectronics Arduino connector"/>
+      <feature type="USB"       n="1"              name="USB re-enumeration capability"/>
+      <feature type="Button"    n="2"              name="Push-buttons: User and Reset"/>
+      <feature type="LED"       n="5"              name="LEDs: COM, Power, User LEDs"/>
+      <debugInterface adapter="ST-Link" connector="Micro-USB"/>
       <debugProbe connector="Micro-USB" debugClock="10000000" debugLink="swd" name="ST-Link"/>
     </board>
   </boards>
