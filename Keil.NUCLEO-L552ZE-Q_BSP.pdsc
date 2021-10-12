@@ -7,6 +7,9 @@
   <repository type="git">https://github.com/MDK-Packs/NUCLEO-L552ZE-Q_BSP.git</repository>
 
   <releases>
+    <release version="1.2.0-dev1">
+      Update Platform example (blocking stdin_getchar in stdio retarget)
+    </release>
     <release version="1.2.0-dev0">
       Projects examples update:
       - override default HAL_InitTick function
