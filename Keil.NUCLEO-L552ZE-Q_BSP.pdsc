@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<package xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd" schemaVersion="1.7.7">
+<package schemaVersion="1.7.28" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Open-CMSIS-Pack/Open-CMSIS-Pack-Spec/v1.7.28/schema/PACK.xsd">
   <name>NUCLEO-L552ZE-Q_BSP</name>
   <vendor>Keil</vendor>
   <description>STMicroelectronics STM32L5 Series NUCLEO-L552ZE-Q Board Support Pack</description>
   <url>https://github.com/MDK-Packs/Pack/raw/master/NUCLEO-L552ZE-Q_BSP/</url>
   <repository type="git">https://github.com/MDK-Packs/NUCLEO-L552ZE-Q_BSP.git</repository>
+  <license>LICENSE</license>
 
   <releases>
+    <release version="1.2.1-dev1">
+      Pack Description:
+      - Add LICENSE file
+      - Update schemaVersion (1.7.28)
+    </release>
     <release version="1.2.1-dev0">
       Drivers:
       - CMSIS-Driver VIO:
